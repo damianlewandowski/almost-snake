@@ -16,7 +16,7 @@ bool GameBoard::init() {
 		}
 
 		//Create window
-		game_window = SDL_CreateWindow("SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+		game_window = SDL_CreateWindow("Almost-Snake v1.0", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 		if (game_window == NULL)
 		{
 			printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
